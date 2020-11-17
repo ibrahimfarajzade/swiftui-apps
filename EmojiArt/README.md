@@ -1,6 +1,7 @@
 # EmojiArt
 
-A simple iOS application that uses:  
+A simple iOS application that uses:
+* Bullet List
 SwiftUI API such as ScrollView, UIImage, Drag and Drop,   
 Background/overlay to create an “emoji artist’s” tool,  
 JSON encoding/decoding,   
