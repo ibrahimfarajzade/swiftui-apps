@@ -2,11 +2,15 @@
 
 A simple iOS application that uses:
 * Bullet List
-  SwiftUI API such as ScrollView, UIImage, Drag and Drop,   
-  Background/overlay to create an “emoji artist’s” tool,  
-  JSON encoding/decoding,   
-  Multi-touch gesture handling,  
-  Data flow and UIKit integration for the camera support.
+SwiftUI API such as ScrollView, UIImage, Drag and Drop,
+* Bullet List
+Background/overlay to create an “emoji artist’s” tool,
+* Bullet List
+JSON encoding/decoding,
+* Bullet List
+Multi-touch gesture handling,
+* Bullet List
+Data flow and UIKit integration for the camera support.
 
 ## Screenshots
 
