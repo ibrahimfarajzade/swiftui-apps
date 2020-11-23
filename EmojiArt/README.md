@@ -1,11 +1,11 @@
 # EmojiArt
 
 A simple iOS application that uses:
-* SwiftUI API such as ScrollView, UIImage, Drag and Drop,
-* Background/overlay to create an “emoji artist’s” tool,
-* JSON encoding/decoding,
-* Multi-touch gesture handling,
-* Data flow and UIKit integration for the camera support.
+* SwiftUI API such as ScrollView, UIImage, Drag and Drop
+* Background/overlay to create an “emoji artist’s” tool
+* JSON encoding/decoding
+* Multi-touch gesture handling
+* Data flow and UIKit integration for the camera support
 
 ## Screenshots
 
