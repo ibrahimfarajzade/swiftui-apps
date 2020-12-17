@@ -1,4 +1,4 @@
-# Stanford2020
+# SwiftUI
 Stanford University's course CS193p - Developing applications for iOS.  
 Spring 2020
 
