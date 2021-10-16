@@ -95,12 +95,9 @@
 		DAB658A22467944B00A0F2BB /* Enroute */ = {
 			isa = PBXGroup;
 			children = (
-				DAB658AA2467944B00A0F2BB /* FlightsEnrouteView.swift */,
-				DA47A9BC2469F34800C8E13C /* FilterFlights.swift */,
-				EC18220F247F27BB00FCB5DE /* MapView.swift */,
+				F084A335271ACDB800AD1611 /* Views */,
 				F0B6AFB6251E22E10070634E /* Extensions */,
 				DA47A9BA2469F27800C8E13C /* FlightAware */,
-				DAB658BC246794A700A0F2BB /* FoundationExtensions.swift */,
 				DAB658AC2467944C00A0F2BB /* Assets.xcassets */,
 				DAB658A32467944B00A0F2BB /* AppDelegate.swift */,
 				DAB658A52467944B00A0F2BB /* SceneDelegate.swift */,
@@ -120,9 +117,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		F084A335271ACDB800AD1611 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DAB658AA2467944B00A0F2BB /* FlightsEnrouteView.swift */,
+				DA47A9BC2469F34800C8E13C /* FilterFlights.swift */,
+				EC18220F247F27BB00FCB5DE /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		F0B6AFB6251E22E10070634E /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				DAB658BC246794A700A0F2BB /* FoundationExtensions.swift */,
 				F0B6AFB7251E23220070634E /* Airline.swift */,
 				F0B6AFB8251E23220070634E /* Airport.swift */,
 				F0B6AFB9251E23220070634E /* Flight.swift */,
