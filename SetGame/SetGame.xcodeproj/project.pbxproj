@@ -49,6 +49,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F084A330271ACD0700AD1611 /* Grid */ = {
+			isa = PBXGroup;
+			children = (
+				F0AB8B4324BA5EAC00C563DB /* Grid.swift */,
+				F0AB8B4424BA5EAC00C563DB /* GridLayout.swift */,
+			);
+			path = Grid;
+			sourceTree = "<group>";
+		};
+		F084A331271ACD1600AD1611 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F0980AB524BA60CE00BBE819 /* CardView.swift */,
+				F0AB8B4D24BA602D00C563DB /* SetGameView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F084A332271ACD2100AD1611 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F0AB8B4124BA486D00C563DB /* SetGameViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F084A333271ACD2B00AD1611 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F0AB8B3F24BA42B300C563DB /* SetGame.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F084A334271ACD3300AD1611 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F0AB8B4724BA5EFC00C563DB /* Array+Identifiable.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		F0AB8B1F24BA41FB00C563DB = {
 			isa = PBXGroup;
 			children = (
@@ -68,13 +110,11 @@
 		F0AB8B2A24BA41FB00C563DB /* SetGame */ = {
 			isa = PBXGroup;
 			children = (
-				F0980AB524BA60CE00BBE819 /* CardView.swift */,
-				F0AB8B4D24BA602D00C563DB /* SetGameView.swift */,
-				F0AB8B4124BA486D00C563DB /* SetGameViewModel.swift */,
-				F0AB8B3F24BA42B300C563DB /* SetGame.swift */,
-				F0AB8B4324BA5EAC00C563DB /* Grid.swift */,
-				F0AB8B4424BA5EAC00C563DB /* GridLayout.swift */,
-				F0AB8B4724BA5EFC00C563DB /* Array+Identifiable.swift */,
+				F084A331271ACD1600AD1611 /* Views */,
+				F084A332271ACD2100AD1611 /* ViewModel */,
+				F084A333271ACD2B00AD1611 /* Model */,
+				F084A330271ACD0700AD1611 /* Grid */,
+				F084A334271ACD3300AD1611 /* Extensions */,
 				F0AB8B2B24BA41FB00C563DB /* AppDelegate.swift */,
 				F0AB8B2D24BA41FB00C563DB /* SceneDelegate.swift */,
 				F0AB8B3124BA41FB00C563DB /* Assets.xcassets */,
@@ -313,7 +353,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SetGame/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = L7U46FA6DL;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SetGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -335,7 +375,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SetGame/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = L7U46FA6DL;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SetGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
