@@ -63,6 +63,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F084A326271AC74700AD1611 /* Grid */ = {
+			isa = PBXGroup;
+			children = (
+				F04D989124DAFF45006160C4 /* Grid.swift */,
+				F04D988F24DAFEF4006160C4 /* GridLayout.swift */,
+			);
+			path = Grid;
+			sourceTree = "<group>";
+		};
+		F084A327271AC79600AD1611 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F00D58E024DC6E780098D268 /* UIColor+RGBA.swift */,
+				F04D989324DB0673006160C4 /* Array+Identifiable.swift */,
+				F04D989524DB1FA3006160C4 /* Array+Only.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F084A328271AC80E00AD1611 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F03134B425023E3C00CED4C9 /* EditableTheme.swift */,
+				F0514D3E2502EC4800F9287C /* EmojiMemoryGameChooser.swift */,
+				F0833E9E24DC28650047697C /* Pie.swift */,
+				F0833EA024DC3FB90047697C /* Cardify.swift */,
+				F0CA74A624D9CB9E00645D55 /* EmojiMemoryGameView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F084A329271AC8A400AD1611 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F0CA74B824D9F59E00645D55 /* EmojiMemoryGame.swift */,
+				F03134B0250158E000CED4C9 /* EmojiMemoryGameStore.swift */,
+				F04D989724DB2CF3006160C4 /* Theme.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F084A32A271AC8CC00AD1611 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F03134AC25013C6C00CED4C9 /* MemoryGame.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F0CA749624D9CB9E00645D55 = {
 			isa = PBXGroup;
 			children = (
@@ -82,20 +131,11 @@
 		F0CA74A124D9CB9E00645D55 /* Memorize */ = {
 			isa = PBXGroup;
 			children = (
-				F04D989124DAFF45006160C4 /* Grid.swift */,
-				F04D988F24DAFEF4006160C4 /* GridLayout.swift */,
-				F0833E9E24DC28650047697C /* Pie.swift */,
-				F0833EA024DC3FB90047697C /* Cardify.swift */,
-				F0CA74A624D9CB9E00645D55 /* EmojiMemoryGameView.swift */,
-				F0CA74B824D9F59E00645D55 /* EmojiMemoryGame.swift */,
-				F0514D3E2502EC4800F9287C /* EmojiMemoryGameChooser.swift */,
-				F03134B0250158E000CED4C9 /* EmojiMemoryGameStore.swift */,
-				F03134AC25013C6C00CED4C9 /* MemoryGame.swift */,
-				F04D989724DB2CF3006160C4 /* Theme.swift */,
-				F03134B425023E3C00CED4C9 /* EditableTheme.swift */,
-				F00D58E024DC6E780098D268 /* UIColor+RGBA.swift */,
-				F04D989324DB0673006160C4 /* Array+Identifiable.swift */,
-				F04D989524DB1FA3006160C4 /* Array+Only.swift */,
+				F084A326271AC74700AD1611 /* Grid */,
+				F084A328271AC80E00AD1611 /* Views */,
+				F084A329271AC8A400AD1611 /* ViewModel */,
+				F084A32A271AC8CC00AD1611 /* Model */,
+				F084A327271AC79600AD1611 /* Extensions */,
 				F0CA74A224D9CB9E00645D55 /* AppDelegate.swift */,
 				F0CA74A424D9CB9E00645D55 /* SceneDelegate.swift */,
 				F0CA74A824D9CB9F00645D55 /* Assets.xcassets */,
@@ -340,7 +380,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Memorize/Preview Content\"";
-				DEVELOPMENT_TEAM = MJA5W96YSM;
+				DEVELOPMENT_TEAM = L7U46FA6DL;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Memorize/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
@@ -361,7 +401,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Memorize/Preview Content\"";
-				DEVELOPMENT_TEAM = MJA5W96YSM;
+				DEVELOPMENT_TEAM = L7U46FA6DL;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Memorize/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
