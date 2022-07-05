@@ -47,5 +47,6 @@ struct EmojiGameMemoryGameChooser: View {
             )
             .environment(\.editMode, $editMode)
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
